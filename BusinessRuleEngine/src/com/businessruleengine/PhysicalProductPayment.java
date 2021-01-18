@@ -4,7 +4,7 @@ public class PhysicalProductPayment implements BusinessProcess{
 
 	@Override
 	public void processPayment() {
-		System.out.println("Its Physical Product Payment generate a packing slip for shipping");
+		System.out.println("Its Physical Product Payment generate a packing slip for shipping, generate a commission payment to the agent");
 	}
 	
 }

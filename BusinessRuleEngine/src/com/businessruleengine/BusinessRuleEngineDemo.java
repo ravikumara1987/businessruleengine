@@ -13,6 +13,18 @@ public class BusinessRuleEngineDemo {
 		strategyPayment=new StrategyPayment(businessProcess); 
 		strategyPayment.strategyPaymentProcess();
 		
+		businessProcess=new MembershipPayment();		
+		strategyPayment=new StrategyPayment(businessProcess); 
+		strategyPayment.strategyPaymentProcess();
+
+		businessProcess=new UpgradeMemerShipPayment();		
+		strategyPayment=new StrategyPayment(businessProcess); 
+		strategyPayment.strategyPaymentProcess();
+		
+		businessProcess=new VideoPaymant();		
+		strategyPayment=new StrategyPayment(businessProcess); 
+		strategyPayment.strategyPaymentProcess();
+		
 	}
 
 }
